@@ -1,0 +1,36 @@
+{
+  "title": "Blog by Hemense Lan",
+  "url": "https://blog.hemense.net",
+  "subtitle": "Hemense Lan's blog",
+  "copyright": "All rights reserved © 2022 Hemense Lan",
+  "postsLimit": 4,
+  "pathPrefix": "/",
+  "menu": [
+    {
+      "label": "Articles",
+      "path": "/"
+    },
+    {
+      "label": "About Me",
+      "path": "/pages/about"
+    },
+    {
+      "label": "Contact Me",
+      "path": "/pages/contact"
+    }
+  ],
+  "author": {
+    "name": "Hemense Lan",
+    "photo": "/profile.jpeg",
+    "bio": "I'm a software engineer, and I'm passionate about e-commerce applications, microservices and algorithms.",
+    "contacts": {
+      "email": "lihemen@gmail.com",
+      "twitter": "li_hemen",
+      "github": "Lihemen",
+      "linkedin": "hemense-lan",
+      "instagram": "lihemen",
+      "facebook": "mrhilz",
+      "devto": "lihemen"
+    }
+  }
+}

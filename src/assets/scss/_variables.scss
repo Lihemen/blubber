@@ -1,0 +1,73 @@
+@use "sass:math";
+@use "sass:color";
+
+$color-base: hsl(0, 0%, 13%);
+$color-primary: hsl(220, 100%, 68%);
+$color-secondary: hsl(31, 92%, 62%);
+
+$color-white: hsl(0, 0%, 100%);
+$color-gray: color.adjust($color-base, $lightness: 40%);
+$color-gray-border: color.adjust($color-base, $lightness: 77%);
+$color-gray-bg: color.adjust($color-base, $lightness: 79%);
+
+$typographic-font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI",
+  "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+
+$typographic-root-font-size: 100;
+$typographic-base-font-size: 14px;
+$typographic-small-font-size: 12px;
+
+$typographic-base-line-height: 1.5;
+
+$typographic-base-font-color: $color-base;
+$typographic-link-p-font-color: $color-primary;
+$typographic-link-s-font-color: $color-secondary;
+
+$typographic-leading: math.round(
+  16 * math.div($typographic-root-font-size, 100) *
+    $typographic-base-line-height
+);
+
+$button-height: 35px;
+$button-border-radius: 20px;
+
+$layout-post-single-width: 945px;
+$layout-post-width: $layout-post-single-width - 305px;
+
+$layout-width: 1070px;
+$layout-breakpoint-sm: 685px;
+$layout-breakpoint-md: 960px;
+$layout-breakpoint-lg: 1100px;
+
+.javascript {
+  color: orange !important;
+  // color: $color-white;
+}
+.css {
+  background: #563d7c;
+  color: $color-white;
+}
+.html {
+  background: #e34c26;
+  color: $color-white;
+}
+.php {
+  background: #4f5d95;
+  color: $color-white;
+}
+.python {
+  background: #3572a5;
+  color: $color-white;
+}
+.ruby {
+  background: #701516;
+  color: $color-white;
+}
+.sql {
+  background: #e38c00;
+  color: $color-white;
+}
+.mongodb {
+  background-color: #00a859;
+  color: $color-white;
+}
