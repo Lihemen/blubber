@@ -9,6 +9,7 @@
 
   .previous {
     text-align: left;
+    cursor: pointer;
     width: 50%;
 
     .previousLink {
@@ -30,6 +31,7 @@
 
   .next {
     text-align: right;
+    cursor: pointer;
     width: 50%;
 
     .nextLink {

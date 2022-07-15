@@ -33,7 +33,7 @@ const CategoryTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar />
-      <Page title={group}>
+      <Page title={"Category: " + group}>
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
