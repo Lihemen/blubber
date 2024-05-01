@@ -3,7 +3,7 @@
   "url": "https://blog.hemense.net",
   "subtitle": "Hemense Lan's blog",
   "copyright": "All rights reserved © 2022 Hemense Lan",
-  "postsLimit": 4,
+  "postsLimit": 6,
   "pathPrefix": "/",
   "menu": [
     {
@@ -21,8 +21,8 @@
   ],
   "author": {
     "name": "Hemense Lan",
-    "photo": "/profile.jpeg",
-    "bio": "I'm a software engineer, and I'm passionate about e-commerce applications, microservices and algorithms.",
+    "photo": "/hemense.jpg",
+    "bio": "Hey there! I'm Hemense, a passionate frontend developer with a knack for leadership and a love for creating intuitive web experiences. My expertise spans HTML, CSS, Typescript, and frameworks like React, Next, Express, Tailwind, TanStack, alongside a keen understanding of web performance optimization, accessibility, and SEO principles. \n Outside of coding, you can find me exploring the latest tech trends, playing football, swimming, or enjoying a good anime. I'm always up for a new challenge and eager to make a positive impact wherever I go.",
     "contacts": {
       "email": "lihemen@gmail.com",
       "twitter": "hemen_lan",

@@ -15,6 +15,7 @@ export default {
     postsLimit: config.postsLimit,
   },
   plugins: [
+    "gatsby-plugin-netlify",
     {
       resolve: "gatsby-source-filesystem",
       options: {
